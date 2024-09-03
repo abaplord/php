@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+}
+
+body{
+    height: 100vmin;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: block;
+}
+
+.field{
+    width: 40vmin;
+    display: flex;
+    margin: 5vmin;
+    div{
+        width: 100%;
+        display: flex;
+    }
+    #label{
+        justify-content: left;
+    }
+    #input{
+        justify-content: right;
+    }
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
